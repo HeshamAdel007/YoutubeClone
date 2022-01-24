@@ -9,7 +9,7 @@ class Channel extends Model
 {
     use HasFactory;
 
-    protected $table = 'Channels';
+    protected $table = 'channels';
     protected $guarded = [];
 
     public function getRouteKeyName()

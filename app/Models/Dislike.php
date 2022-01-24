@@ -9,7 +9,7 @@ class Dislike extends Model
 {
     use HasFactory;
 
-    protected $table = 'Dislikes';
+    protected $table = 'dislikes';
     protected $guarded = [];
     public $timestamps = false;
 

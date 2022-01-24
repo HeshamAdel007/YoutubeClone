@@ -9,7 +9,7 @@ class {{ class }} extends Model
 {
     use HasFactory;
 
-    protected $table = '{{ class }}s';
+    protected $table = '';
     protected $guarded = [];
 
 } // End of Model
